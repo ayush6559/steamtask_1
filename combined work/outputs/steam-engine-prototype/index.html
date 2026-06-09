@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Steam Engine | Cinematic Luxury Catering</title>
+    <meta
+      name="description"
+      content="A cinematic luxury hospitality prototype for The Steam Engine, a premium catering company crafting weddings, corporate evenings, private events, and live dining experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind = {
+        config: {
+          theme: {
+            extend: {
+              colors: {
+                ink: "#050505",
+                obsidian: "#0b0a08",
+                charcoal: "#151310",
+                cream: "#fff7e8",
+                pearl: "#f6ead5",
+                gold: "#d8ad61",
+                oldgold: "#a97936",
+                smoke: "rgba(255,247,232,0.68)",
+              },
+              fontFamily: {
+                serif: ["Cormorant Garamond", "Georgia", "serif"],
+                sans: ["Manrope", "Arial", "sans-serif"],
+              },
+              boxShadow: {
+                luxury: "0 34px 110px rgba(0,0,0,0.46)",
+                premium: "0 10px 30px rgba(0,0,0,0.08)",
+                "premium-hover": "0 20px 40px rgba(0,0,0,0.12)",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <noscript>This cinematic prototype needs JavaScript enabled to run the scrolling experience.</noscript>
+    <div id="root"></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
